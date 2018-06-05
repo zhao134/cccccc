@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/linear"
+    tools:context="com.example.administrator.dector.MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragelayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/wuye"
+            android:button="@null"
+            android:text="物业"
+            android:textColor="@color/text_color"
+            android:checked="true"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_launcher"
+            />
+        <RadioButton
+            android:id="@+id/supmarts"
+            android:button="@null"
+            android:text="超市"
+            android:textColor="@color/text_color"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_launcher"
+            />
+
+        <RadioButton
+            android:id="@+id/sq"
+            android:button="@null"
+            android:text="商圈"
+            android:textColor="@color/text_color"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            android:drawableTop="@mipmap/ic_launcher"
+            />
+
+        <RadioButton
+            android:id="@+id/mine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:textColor="@color/text_color"
+            android:drawableTop="@mipmap/ic_launcher"
+            android:gravity="center"
+            android:text="我的" />
+    </RadioGroup>
+
+
+
+</LinearLayout>
